@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Web information -->
+    <link rel="icon" href="assests/img/spelogo.png" />
+    <title>SPE YP symposium</title>
+
+    <!-- Stylesheets -->
+    <link href='https://fonts.googleapis.com/css?family=Josefin Sans' rel='stylesheet'>
+    <link href='https://css.gg/css' rel='stylesheet'>
+    <link 
+        rel="stylesheet" 
+        href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" 
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+        crossorigin="anonymous"
+    >
+    <link rel="stylesheet" href="./assests/css/index.css">
+    <link rel="stylesheet" href="./assests/css/navbar.css">
+    <link rel="stylesheet" href="./assests/css/header.css">
+    <link rel="stylesheet" href="./assests/css/theme.css">
+    <link rel="stylesheet" href="./assests/css/keynote.css">
+    <link rel="stylesheet" href="./assests/css/careerfair.css">
+    <link rel="stylesheet" href="./assests/css/energyChallenge.css">
+    <link rel="stylesheet" href="./assests/css/debate.css">
+    <link rel="stylesheet" href="./assests/css/sponsors.css">
+    <link rel="stylesheet" href="./assests/css/footer.css">
+    <link rel="stylesheet" href="./assests/css/pastsymposium.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-sm bg-body-tertiary">
+        <div class="container-fluid nv-bar-wrap">
+            <a class="navbar-brand nv-b" href="#">
+                <img src='./assests/img/spelogo.png' alt="spelogo" id="brandlogo"/>
+                <div class="container bl-txt">
+                    <p>Society of Petroleum Engineers</p>
+                    <p>Port Harcourt, Nigeria (Section 103)</p>
+                </div>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse nls" id="navbarNav">
+                <ul class="navbar-nav inNav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#panel-section">Panel Session</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#breakout-section">Breakout Session</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#shortCourse-section">Short Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#energyChallenge-section">Energy Challenge</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#career-fair-section">Career Fair</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#debate-section">Debate</a>                        
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="https://www.spe.org/en/">About SPE</a>
+                    </li>
+
+                    <a  href="./detailpage/register.html" >
+                        <button type="button" class="btn btn-primary btn-sm" role="button" id="navRegLink">REGISTER</button>
+                    </a>
+
+                    <div id="demo"></div>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <div class="bg-image"></div>
+        <h3 class="society">Society of Petroleum Engineers, Port Harcourt Section</h3>
+
+        <h1>2024 YOUNG PROFESSIONAL SYMPOSIUM</h1>
+
+        <div>
+            <div class="header_icons">
+                <i class="gg-pin"></i>
+                <span>
+                    Shell Residential Area, Port Harcourt - Aba Express Way, <br />
+                    Rumuokwurusi, Port Harcourt, 500102, Rivers State                 </span>
+            </div>
+
+            <br />
+
+            <div class="header_icons">
+                <i class="gg-calendar-dates"></i>
+                <span>Thursday, 2nd April - Saturday, 4th May 2024</span>
+            </div>
+        </div>
+
+        <div class='CountdownTimer'>
+            <span id="cd1"></span>
+            <span id="cd2"></span>
+            <span id="cd3"></span>
+            <span id="cd4"></span>
+        </div>
+
+        <div class="header-buttons">
+            <a  href="./detailpage/register.html" ><button type="button" class="btn btn-danger btn-sm" role="button">REGISTER FOR SYMPOSIUM</button></a>
+            <a href='https://getdp.co/obS'><button type="button" class="btn btn-sm btn-brochure" role="button">CREATE YOUR PERSONALISED FLYER</button></a>
+            <a href="./assests/brochure.pdf" download><button type="button" class="btn btn-warning btn-sm" role="button">DOWNLOAD BROCHURE</button></a>
+        </div>
+    </header>
+
+    <section class="theme">
+        <div>
+            <h3>
+                <span>Theme:</span> <span>Empowering Tomorrow's Energy Leaders:</span> <span>Challenges and Opportunities for the Energy Professionals.</span>
+            </h3>
+            <p>
+                The oil and gas industry is on the cusp of a digital transformation. New technologies like artificial intelligence, automation, and big data analytics are rapidly changing how we find, extract, and process hydrocarbons. To stay competitive in this fast-evolving landscape, we must equip the next generation of energy leaders with the skills and knowledge to navigate the digital frontier. 
+                <br/><br/>
+                That's why the Society of Petroleum Engineers, Port Harcourt Section is proud to host the 2024 SPE YP Symposium, an event that brings together Professionals, Young Professionals, Students and Energy enthusiasts to learn about the latest digital innovations impacting the oil and gas industry.
+                <br/><br/>
+                In addition to insightful presentations from industry experts, attendees will have the opportunity to:
+                <br/>
+                <ul class="listimade">
+                    <li>Participate in the Career fair as there will be recruiters on the ground (time to aim for your dream company).</li>
+                    <li>Network with peers and industry professionals </li>
+                    <li>Participate in the Short courses
+                    </li>
+                    <li>Showcase their skills in:</li>
+                    <ol>
+                        <li>Debates competition</li>
+                        <li>Energy Challenge</li>
+                    </ol>
+                    <br/>
+                Prepare to be a part of this dynamic symposium. It promises to be better, stay tuned!!!!
+                </ul>
+            </p>
+        </div>
+        <img src='./assests/img/theme.jpeg'/>
+    </section>
+
+    <div class="section-container" id="host-section">
+        <div class="split-section">
+            <div class="split-section-sub ">
+                <h3 class="section-title">MEET THE HOST</h3>
+                <div class="card-section">            
+                    <div class="cards-container">
+                        <img src="./assests/img/daniel.jpg" alt="Daniel Abia" class="card-image">
+                        <div class="card-writeup">
+                            <p class="speaker-name">Daniel Abia</p>
+                            <p class="speaker-title">Chairman, SPE Port Harcourt Section</p>
+                            <p class="speaker-subtitle">
+                            </p>
+                            <a class="call-to-action" href="https://www.linkedin.com/in/daniel-abia-25ba5327/">View More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="split-section-sub">
+                <h3 class="section-title">KEYNOTE SPEAKERS</h3>
+                <div class="card-section">            
+                    <div class="cards-container">
+                        <img src="./assests/img/med.jfif" alt="Med Kamal" class="card-image">
+                        <div class="card-writeup">
+                            <p class="speaker-name">Med Kamal</p>
+                            <p class="speaker-title">2023 SPE President</p>
+                            <p class="speaker-subtitle">
+                                Key Drivers for Achieving Secure and Sustainable Energy 
+                                and the Role of Young Professionals
+                            </p>
+                            <a class="call-to-action" href="./detailpage/med.html">View More</a>
+                        </div>
+                    </div>
+
+                    <div class="cards-container">
+                        <img src="./assests/img/obi.jpg" alt="Obi Imemba" class="card-image">
+                        <div class="card-writeup">
+                            <p class="speaker-name">Obi Imemba</p>
+                            <p class="speaker-title">Executive Director, TotalEnergies Nigeria</p>
+                            <p class="speaker-subtitle">
+                                Energy Insecurity in Sub-Saharan Africa: 
+                                The Industry’s Approach to Tackle it
+                            </p>
+                            <a class="call-to-action" href="./detailpage/obi.html">View More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="section-container" id="specialGuest-section">
+        <h3 class="section-title">SPECIAL GUESTS OF HONOUR</h3>           
+
+        <div class="card-section">
+            <div class="cards-container">
+                <img src="./assests/img/abdulrahman.jpeg" alt="Abdulrahman Mijinyawa" class="card-image">
+                <div class="card-writeup">
+                    <p class="speaker-name">AbdulRahman Mijinyawa</p>
+                    <p class="speaker-title">General Manager, Development & Subsurface, Shell Nigeria</p>
+                    <p class="speaker-subtitle">
+                        Abdulrahman Mijinyawa is ...
+                    </p>
+                    <a class="call-to-action" href="./detailpage/abdulrahman.html">View More</a>
+                </div>
+            </div>
+
+            <div class="cards-container">
+                <img src="./assests/img/effiom.jpg" alt="effiom Oghogho" class="card-image">
+                <div class="card-writeup">
+                    <p class="speaker-name">Oghogho Effiom</p>
+                    <p class="speaker-title">SPE, Africa Regional Director</p>
+                    <p class="speaker-subtitle">
+                        Oghogho Effiom is the Regional Director, Africa for Society of Petroleum 
+                        Engineers, ...
+                    </p>
+                    <a class="call-to-action" href="./detailpage/effiom.html">View More</a>
+                </div>
+            </div>
+
+            <div class="cards-container">
+                <img src="./assests/img/felix.jfif" alt="felix Obike" class="card-image">
+                <div class="card-writeup">
+                    <p class="speaker-name">Felix Obike</p>
+                    <p class="speaker-title">SPE, Nigeria Council Chairman</p>
+                    <p class="speaker-subtitle">
+                        Felix Chijioke Obike is a vibrant SPE member that has held numerous distinguished 
+                        positions ...
+                    </p>
+                    <a class="call-to-action" href="./detailpage/felix.html">View More</a>
+                </div>
+            </div>
+
+            <div class="cards-container">
+                <img src="./assests/img/debo.jpeg" alt="debo Adebajo" class="card-image">
+                <div class="card-writeup">
+                    <p class="speaker-name">Debo Adebajo</p>
+                    <p class="speaker-title">Vice President, Technical, Heirs Holding</p>
+                    <p class="speaker-subtitle">
+                        Debo Adebajo is Vice-President, Technical. Debo is an Experienced Petroleum Engineer, 
+                        with  ...
+                    </p>
+                    <a class="call-to-action" href="./detailpage/debo.html">View More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="host-section">
+
+    </section>
+
+    <section class="section-container" id="panel-section">
+        <h3 class="section-title">PANEL SESSION</h3>
+        <p class="section-subtitle"> Meet our Panelists</p>
+        <div class="card-section">
+            <div class="cards-container">
+                <img src="./assests/img/uche.jpg" alt="uche" class="card-image">
+                <div class="card-writeup">
+                    <p class="speaker-name">Johnbosco Uche</p>
+                    <p class="speaker-title">Energy Transition Business Opportunity Manager, Shell Companies in Nigeria</p>
+                    <p class="speaker-subtitle"><strong>Area of Focus: </strong>Energy Sustainability</p>
+                    <a class="call-to-action" href="./detailpage/uche.html">View More</a>
+                </div>
+            </div>
+
+            <div class="cards-container">
+                <img src="./assests/img/ifeoma.png" alt="ifeoma" class="card-image">
+                <div class="card-writeup">
+                    <p class="speaker-name">Ifeoma Malo</p>
+                    <p class="speaker-title">CEO, Clean Technology Hub Nigeria</p>
+                    <p class="speaker-subtitle"><strong>Area of Focus: </strong>Policy and Regulations</p>
+                    <a class="call-to-action" href="./detailpage/ifeoma.html">View More</a>
+                </div>
+            </div>
+
+            <div class="cards-container">
+                <img src="./assests/img/ayuk.jpg" alt="ayuk" class="card-image">
+                <div class="card-writeup">
+                    <p class="speaker-name">NJ Ayuk</p>
+                    <p class="speaker-title">Chairman African Energy Chamber and CEO of Centurion Law Group</p>
+                    <p class="speaker-subtitle"><strong>Area of Focus: </strong>Investment in Secure and Sustainable Energy</p>
+                    <a class="call-to-action" href="./detailpage/ayuk.html">View More</a>
+                </div>
+            </div>
+            
+            <div class="cards-container">
+                <img src="./assests/img/obefele.jpg" alt="obefele" class="card-image">
+                <div class="card-writeup">
+                    <p class="speaker-name">Obafele Iwebo</p>
+                    <p class="speaker-title">Projects Director (Sub-Saharan Africa), Schneider Electric</p>
+                    <p class="speaker-subtitle"><strong>Area of Focus: </strong>Digitalization</p>
+                    <a class="call-to-action" href="./detailpage/obafele.html">View More</a>
+                </div>
+            </div>
+
+            <div class="cards-container">
+                <img src="./assests/img/eze.jpg" alt="eze" class="card-image">
+                <div class="card-writeup">
+                    <p class="speaker-name">Chuka David Eze</p>
+                    <p class="speaker-title">Managing Director, Frazimex Engineering Limited (Oilserv Group)</p>
+                    <p class="speaker-subtitle"><strong>Area of Focus: </strong>Energy Infrastructure: Gap and Potential</p>
+                    <a class="call-to-action" href="./detailpage/eze.html">View More</a>
+                </div>
+            </div>
+
+            <div class="cards-container">
+                <img src="./assests/img/jude.jpeg" alt="jude" class="card-image">
+                <div class="card-writeup">
+                    <p class="speaker-name">Jude Osimobi</p>
+                    <p class="speaker-title">Geophysicist, Shell Petroleum Development Company of Nigeria</p>
+                    <p class="speaker-subtitle"><strong>Role: </strong>Moderator, Panel Session</p>
+                    <a class="call-to-action" href="./detailpage/jude.html">View More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <section class="section-container" id="breakout-section">
+        <h3 class="section-title">BREAKOUT SESSION</h3>
+        <p class="section-subtitle">Discuss with Subject Matter Experts...</p>
+        <div class="card-section">
+            <div class="cards-container">
+                <img src="./assests/img/afolabi.jpg" alt="afolabi" class="card-image">
+                <div class="card-writeup">
+                    <p class="speaker-name">Afolabi Akinrogunde</p>
+                    <p class="speaker-title">Investment Manager, All-On</p>
+                    <p class="speaker-subtitle"><strong>Title: </strong>Green Mini-Grids: Accelerating Electricity Access Through Clean Energy Mini-Grid Solutions</p>
+                    <a class="call-to-action" href="./detailpage/afolabi.html">View More</a>
+                </div>
+            </div>
+
+            <div class="cards-container">
+                <img src="./assests/img/yetunde.jpg" alt="ifeoma" class="card-image">
+                <div class="card-writeup">
+                    <p class="speaker-name">Yetunde Fadeyi</p>
+                    <p class="speaker-title">Climate Change Consultant at IRENA</p>
+                    <p class="speaker-subtitle"><strong>Title: </strong>GHG Emission Reduction and Climate Change</p>
+                    <a class="call-to-action" href="./detailpage/yetunde.html">View More</a>
+                </div>
+            </div>
+
+            <div class="cards-container">
+                <img src="./assests/img/franklin.jpg" alt="franklin" class="card-image">
+                <div class="card-writeup">
+                    <p class="speaker-name">Franklin Omusi</p>
+                    <p class="speaker-title">MD/CEO, Genesis Ecopower Systems Limited.</p>
+                    <p class="speaker-subtitle"><strong>Title: </strong>Energy Storage in Energy Transition: The Importance of Energy Storage Systems in Decarbonization Roadmap.</p>
+                    <a class="call-to-action" href="./detailpage/franklin.html">View More</a>
+                </div>
+            </div>
+
+            <div class="cards-container">
+                <img src="./assests/img/michael.jpg" alt="lester" class="card-image">
+                <div class="card-writeup">
+                    <p class="speaker-name">Michael Ogbuanu</p>
+                    <p class="speaker-title">Lead, Site Management Systems, NLNG</p>
+                    <p class="speaker-subtitle"><strong>Title: </strong>Sustainable Energy Supply: The Role of LNG in the Energy Transition</p>
+                    <a class="call-to-action" href="./detailpage/michael.html">View More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <section class="section-container" id="shortCourse-section">
+        <h3 class="section-title">SHORT COURSES</h3>
+        <p class="section-subtitle">Join Us for a Short Course in your Favourite Area</p>
+        <div class="card-section">
+            <div class="cards-container">
+                <img src="./assests/img/henry.jpg" alt="Henry" class="card-image">
+                <div class="card-writeup">
+                    <p class="speaker-name">Henry Ren</p>
+                    <p class="speaker-title">Senior Consultant at REN DATASIM, LLC</p>
+                    <p class="speaker-subtitle"><strong>Course Title: </strong>Blockchain Technology and Digital Twin Distributed Data Fabric for Oil & Gas Applications</p>
+                    <a class="call-to-action" href="./detailpage/henry.html">View More</a>
+                </div>
+            </div>
+
+            <div class="cards-container">
+                <img src="./assests/img/chris.jpg" alt="chris" class="card-image">
+                <div class="card-writeup">
+                    <p class="speaker-name">Chris Egwuatu</p>
+                    <p class="speaker-title">Project QHSSE Engineering and Management, Nigeria LNG</p>
+                    <p class="speaker-subtitle"><strong>Course Title: </strong>Business Analysis and Project Management in the Energy Industry</p>
+                    <a class="call-to-action" href="./detailpage/chris.html">View More</a>
+                </div>
+            </div>
+
+            <div class="cards-container">
+                <img src="./assests/img/thankgodjnr.jpg" alt="thankgod jnr" class="card-image">
+                <div class="card-writeup">
+                    <p class="speaker-name">Thankgod Egbe Jr.</p>
+                    <p class="speaker-title">Machine Learning Engineer, CypherCrescent Limited</p>
+                    <p class="speaker-subtitle"><strong>Course Title: </strong>Machine Learning in the Energy Industry</p>
+                    <a class="call-to-action" href="./detailpage/thankgod.html">View More</a>
+                </div>
+            </div>
+
+            <div class="cards-container">
+                <img src="./assests/img/gerald.jpg" alt="Gerald" class="card-image">
+                <div class="card-writeup">
+                    <p class="speaker-name">Gerald Ihedilonye</p>
+                    <p class="speaker-title">Co-Founder, ExcelforEnergy</p>
+                    <p class="speaker-subtitle"><strong>Course Title: </strong>Applications of Microsoft Excel in the Energy Industry</p>
+                    <a class="call-to-action" href="./detailpage/gerald.html">View More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <section class="energyChallenge-container" id="energyChallenge-section">
+        <h3 class="section-title">THE ENERGY CHALLENGE</h3>
+        <p class="section-subtitle energyChallenge-section-subtitle">Participate in The Energy Challenge and win a Prize...</p>    
+        <div class="flyer-row">
+            <img src="./assests/img/Energy.jpg" alt="energy Challenge" class="flyer energyChallenge-flyer">
+            <div class="flyer-explain energyChallenge-flyerExplain">
+                <p id="energyChallenge-flyerPara">
+                    Do you have an idea on how to incorporate Digital solutions to problems plaguing the Energy Industry?
+The energy challenge provides an opportunity for Young Professionals to apply their passion and knowledge to proffer digital solutions to Energy Industry challenges.
+
+Solutions may address the following areas and examples:
+<br>
+•	Exploration and Production (Seismic, Drilling, Reservoir simulation and Management)<br>
+•	Operations and Maintenance (Predictive maintenance, Automation, Supply chain, Safety)<br>
+•	Data Management (Big Data Analytics, Cloud Computing, Cybersecurity)<br>
+•	Environmental Sustainability: CCUS, Renewable Energy
+<br><br>
+
+
+
+                </p>
+                <p id="energyChallenge-solutionsHeader">Challenge Stages: </p>
+                <table>
+                    <tr>
+                        <th>Stage</th>
+                        <th>Date</th>
+                        <th>Activity</th>
+                    </tr>
+                    <tr>
+                        <td>First Stage</td>
+                        <td>11 March - 15th April
+                        </td>
+                        <td>Submission of  initiative plans (pdf or ppt format)</td>
+                    </tr>
+                    <tr>
+                        <td>Second Stage</td>
+                        <td>16th April - 30th April </td>
+                        <td>
+                            Utilize digital platforms to leverage for idea selection; 
+                            Contestants to make a 60 secs presentation on their idea 
+                            which will be published on digital platforms for public appraisal.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Third / Final Stage</td>
+                        <td>May 4th</td>
+                        <td>
+                            Idea pitch during the symposium demonstrating idea feasibility, 
+                            scalability, commercial viability, and social impact.
+                        </td>
+                    </tr>
+                </table>
+                <a href="https://bit.ly/SPE-EnergyChallenge" class="call-to-action careerFair-callToAction">Register for Energy Challenge</a>
+            </div>
+        </div>
+   </section>
+
+   <section class="career-fair-container" id="career-fair-section">
+        <h3 class="section-title">CAREER FAIR</h3>
+        <p class="section-subtitle careerFair-subtitle">Meet and Interact With Potential Employers and Indusry Professionals Across Different Fields</p>    
+        <div class="flyer-row">
+            <img src="./assests/img/career-fair-flyer.jpeg" alt="" class="flyer">
+            <div class="flyer-explain">
+                <p>
+                    Unemployment is one of the biggest problems facing Nigeria and is negatively affecting Nigerian youths, 
+                    in particular. Therefore, it is timely to organize a symposium that incorporates skill building, knowledge 
+                    sharing, networking, and a career fair.
+                    The 2023 SPE Young Professionals Symposium aims to provide an excellent opportunity for young graduates 
+                    and job seekers to learn about different career options, network with potential employers, and increase 
+                    their chances of getting hired.
+                    An array of prolific companies will be present during the symposium to participate in the career fair.
+                </p>
+                <p>FEATURING</p>
+                <ul class="flyer-item-list">
+                    <li>Employment / Recruitment Opportunities</li>
+                    <li>CV Reviews</li>
+                    <li>Career talks from professionals</li>
+                    <li>Quizzes & Aptitude tests</li>
+                    <li>Kahoot games with prizes to be won </li>
+                </ul>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSedRlPo-oYMDk4In3UP3Pnl5kpRoHHQDgDwfXw_AhZDCx4KlQ/viewform" class="call-to-action careerFair-callToAction">Register for Career Fair</a>
+            </div>  
+        </div>
+   </section>
+
+   <section class="debate-container" id="debate-section">
+        <h3 class="section-title">DEBATE</h3>
+        <p class="section-subtitle careerFair-subtitle">Register for Debate Session and Win a Prize</p>
+        <div class="flyer-row">
+            <img src="./assests/img/debate.jpg" alt="" class="flyer">
+            <div class="flyer-explain">
+                <p> <strong>Topic: </strong>Digitalization in the Oil and Gas Industry: Embracing Efficiency or Endangering Employment.
+                </p>
+                
+                <p id="debate-instructions">REGISTRATION INSTRUCTIONS</p>
+
+                <ul class="flyer-item-list">
+                    <li>Ensure to register for the symposium</li>
+                    <li>Click on the button below to register for debate</li>
+                    <li>Fill and submit the online debater registration form</li>
+                    <li>Organizers will contact you if you are selected</li>
+                    <li>Entry closes 19th April, 2024</li>
+                </ul>
+
+                <a href="https://bit.ly/SPE-debate"><button class="btn btn-primary debate-reg-button">Register for Debate</button></a>
+            </div>
+        </div>
+   </section>
+
+   <section class="past-symposium" id="pastSymposium-section">
+        <h3 class="section-title">PAST SYMPOSIUM</h3>
+        <p class="section-subtitle">Take a peek into Last Years Symposium Event</p>
+        <div class="lastyear-video">
+            <iframe
+                class="responsive-iframe"
+                src="https://www.youtube.com/embed/-x9l8NBtHE4?si=F11xvi9M_6U6r_AF"
+                allowfullscreen
+            >
+            </iframe>
+        </div>
+   </section>
+
+   <section class="sponsors-container" id="sponsor-section">
+        <h4 class="section-title">OUR SPONSORS</h4>
+        <div class="sponsors-wrap">
+            <div class="sponsor-category platinum-sponsors">
+                <h6><span>PLATINUM</span> SPONSORS</h6>
+                <div class="sponsor-logo-wrap">
+                    <img src="./assests/img/shell.png" alt="shell">
+                </div>
+            </div>
+
+            <hr class="sponsor-divide">
+
+            <div class="sponsor-category gold-sponsors">
+                <h6><span>GOLD</span> SPONSORS</h6>
+                <div class="sponsor-logo-wrap">
+                    <img src="./assests/img/seaquest.jpeg" alt="Seaquest" id="seaquest">
+                </div>
+            </div>
+
+            <hr class="sponsor-divide">
+
+            <div class="sponsor-category silver-sponsors">
+                <h6><span>SILVER</span> SPONSORS</h6>
+                <div class="sponsor-logo-wrap">
+                    <img src="./assests/img/bonitas.jpeg" alt="Bonitas">
+                    <img src="./assests/img/Kenyon.jpeg" alt="Kenyon">
+                </div>
+            </div>
+
+            <hr class="sponsor-divide">
+
+            <div class="sponsor-category bronze-sponsors">
+                <h6><span>BRONZE</span> SPONSORS</h6>
+                <div class="sponsor-logo-wrap">
+                    <img src="./assests/img/jevant_spencer.png" alt="jevant" id="jevant-spencer">
+                    <img src="./assests/img/bismuth.jfif" alt="bismuth">
+                    <img src="./assests/img/scopex.jpeg" alt="scopex" id="scopex">
+                </div>
+            </div>
+        </div>
+   </section>
+
+   <div class="footer">
+        <div class="reachOut">
+            <p>For Sponsorship / Enquiries</p>
+            <ul class="symposium-contacts">
+                <li><strong>Nicholas: </strong>+234 811 167 7320</li>
+                <li><strong>Justice: </strong>+234 813 499 2803</li>
+                <li><strong>Chiamaka: </strong>+234 803 237 9726</li>
+            </ul>
+
+            <div class="reachOutLinks">
+                <a href="https://www.linkedin.com/in/spe-port-harcourt-section-bab326110/"><img src='./assests/img/linkedin.svg' alt="logo"></a>
+                <a href="https://www.instagram.com/spephc/"><img src='./assests/img/instagram.svg' alt="logo"></a>
+                <a href="https://twitter.com/speypsection103"><img src='./assests/img/twitter.svg' alt="logo"></a>
+                <a href="https://web.facebook.com/SpeYoungProfessionalsPortHarcourtSection"><img src='./assests/img/facebook.svg' alt="logo"></a>
+            </div>
+
+        </div>
+
+        <div class="footNav">
+            <a href="https://tix.africa/ypsymp2024">• Symposium</a>
+            <a href="https://bit.ly/SPE-EnergyChallenge">• Energy Challenge</a>
+            <a href="https://bit.ly/SPE-debate">• Debate</a>
+            <a href="https://www.spe.org/en/">• About us</a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSedRlPo-oYMDk4In3UP3Pnl5kpRoHHQDgDwfXw_AhZDCx4KlQ/viewform">• Career Fair</a>
+            <a href="./assests/brochure.pdf" download id="progress-link2">• Download Brochure</a>
+            <a href="https://getdp.co/obS">Create Your Own Flyer</a>
+        </div>
+    </div>
+
+    <script src="./assests/js/CountdownTimer.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+    <script src="./assests/js/hideMobileNav.js"></script>
+    <script src="./assests/js/preloadSlides.js"></script>
+    <script src="./assests/js/showNotice.js"></script>
+</body>
+</html>

@@ -1,0 +1,178 @@
+* {
+  font-family: 'Josefin Sans';
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.split-section{
+  display: flex;
+  justify-content: space-between;
+}
+
+.split-section-sub{
+  width: 40vw;
+}
+
+.section-container{
+  padding: 6vw 4vw 0;
+}
+
+.section-title{
+  text-align: center;
+  font-size: 2.5vw;
+}
+
+.section-subtitle{
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.card-section{
+  padding: 3vw 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.cards-container{
+  display: flex;
+  width: 42vw;
+  height: 14vw;
+  background: #E7E9EB;
+  margin-bottom: 2vw;
+  border-radius: 2vw;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+.card-image{
+  width: 33%;
+  border-radius: 2vw 0 0 2vw;
+}
+
+.card-image:hover{
+  filter: brightness(0.8);
+  list-style: none;
+}
+
+.card-writeup{
+  padding: 1vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 67%;
+}
+
+.speaker-name{
+  font-weight: bolder;
+  font-size: 2vw;
+  margin-bottom: 0;
+}
+
+.speaker-title{
+  margin-bottom: 0;
+  font-weight: bold;
+  font-size: 1.2vw;
+}
+
+.speaker-subtitle{
+  margin-bottom: 0;
+  font-size: 1vw;
+}
+
+.speaker-bio{
+  margin-bottom: 0;
+  font-size: 1vw;
+}
+
+.call-to-action{
+  display: flex;
+  padding: 0.5vw 0.8vw;
+  border-radius: 0.5vw;
+  font-size: 1vw;
+  background-color: royalblue;
+  color: white;
+  width: fit-content;
+}
+
+.call-to-action:hover{
+  color: white;
+}
+
+#specialGuest-section{
+  background-color: white;
+}
+
+#panel-section{
+  background-color: #DFE0D8;
+}
+
+#breakout-section{
+  background-color: gray;
+}
+
+#shortCourse-section{
+  background-color: azure;
+}
+
+#host-section{
+  background-color: #F2F2F2;;
+}
+
+#sponsor-section{
+  background-color: #E7E9EB;
+}
+
+@media only screen and (max-width: 600px)  {
+  .section-container{
+    padding: 15vw 5vw 5vw;
+  }
+
+  .split-section{
+    flex-direction: column;
+  }
+
+  .split-section-sub{
+    width: 100%;
+  }
+
+  .section-title{
+    font-size: 5.5vw;
+  }
+  
+  .card-section{
+    flex-direction: column;
+  }
+
+  .cards-container{
+    width: 100%;
+    margin: 0 0 5vw;
+    height: 33vw;
+  }
+
+  .card-writeup{
+    padding: 1vw 1vw 1vw 2vw;
+  }
+
+  .speaker-name{
+      font-size: 4.3vw;
+  }
+
+  .speaker-title{
+      font-size: 2.7vw;
+  }
+
+  .speaker-subtitle{
+      font-size: 2.5vw;
+  }
+
+  .speaker-bio{
+      font-size: 1.7vw;
+  }
+
+  .call-to-action{
+      font-size: 2.4vw;
+  }
+}
