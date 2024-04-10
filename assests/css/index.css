@@ -37,6 +37,7 @@ body {
   justify-content: space-around;
 }
 
+
 .cards-container{
   display: flex;
   width: 42vw;
@@ -45,6 +46,39 @@ body {
   margin-bottom: 2vw;
   border-radius: 2vw;
   box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+.card1 {
+  width: 23%; /* Adjust as needed */
+  margin: 1%;
+  display: inline-block;
+  vertical-align: top;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+/* On hover, increase the card's shadow */
+.card1:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Card image */
+.card1 img {
+  width: 100%;
+  height: 150px; /* Set a fixed height */
+  object-fit: cover; /* Crop images to fit */
+}
+
+/* Card content */
+.card1-container {
+  padding: 20px;
+  text-align: center;
+}
+/* Responsive layout */
+@media (max-width: 768px) {
+  .card1 {
+    width: 48%; /* Two cards per row */
+  }
 }
 
 .card-image{
